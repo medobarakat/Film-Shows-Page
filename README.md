@@ -5,7 +5,7 @@ this is a Responsive Webpage For Films and Shows Filtershows
 
 ## Live Link
 
-- Live: [DEMO](https://films-shows-app.netlify.app/)
+- Live: [DEMO](https://films-shows-app-1.netlify.app)
 
 ## Built with
 
