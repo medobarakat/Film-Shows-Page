@@ -7,10 +7,22 @@
   height: 33rem;
   margin: 0.5rem;
   border-radius: 10px;
+  padding: 1rem 0rem;
   cursor: pointer;
   &:hover {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    width: 80%;
+    display: block;
+    margin: auto;
+    .card-text-1 {
+      font-size: 15px;
+    }
   }
 }

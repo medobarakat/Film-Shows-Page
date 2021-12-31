@@ -34,3 +34,20 @@ $top-margin: 10px;
   height: 38px;
   margin-top: $top-margin;
 }
+
+@media (max-width: 575.98px) {
+  .header {
+    a {
+      font-size: 20px;
+    }
+  }
+  .search-feature {
+    width: 40%;
+    .form-control {
+      font-size: 15px !important;
+    }
+    .btn {
+      font-size: 14px !important;
+    }
+  }
+}

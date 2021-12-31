@@ -30,7 +30,7 @@ export default function Header() {
               <input
                 type="text"
                 class="form-control"
-                placeholder="Search For Movie or Show"
+                placeholder="Search"
                 value={term}
                 onChange={(e) => {
                   setTerm(e.target.value);
