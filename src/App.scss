@@ -1,0 +1,19 @@
+@import "./common/Color.scss";
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $Font-primary-color;
+}
+a {
+  text-decoration: none;
+  display: block;
+  &:hover {
+    text-decoration: none;
+  }
+}
+body {
+  background-color: $primary-color;
+}

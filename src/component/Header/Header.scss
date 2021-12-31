@@ -1,0 +1,36 @@
+@import "../../common/Color.scss";
+$top-margin: 10px;
+
+.header {
+  background-color: $secondry-color;
+  padding-bottom: 5px;
+  color: $Font-primary-color;
+  height: 60px;
+  box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title a {
+  font-size: 25px;
+  font-weight: 400;
+  cursor: pointer;
+  color: $Font-primary-color;
+  margin-top: $top-margin;
+  transition: all 0.4s;
+  &:hover {
+    color: $Font-secondry-color;
+  }
+}
+.icon img {
+  width: 38px;
+  height: 38px;
+  margin-top: $top-margin;
+}

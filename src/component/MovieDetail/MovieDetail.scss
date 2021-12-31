@@ -1,0 +1,33 @@
+@import "../../common/Color.scss";
+
+.specs {
+  p {
+    color: $Font-third-color;
+  }
+  i {
+    color: yellow;
+  }
+}
+
+.plot {
+  div {
+    font-size: 0.9rem;
+  }
+}
+.info {
+  h5 {
+    font-weight: bold;
+    font-size: 1rem;
+    span {
+      color: $Font-third-color;
+      font-weight: normal;
+    }
+  }
+}
+
+.section {
+  .loading {
+    color: $Font-third-color;
+    font-weight: bold;
+  }
+}
